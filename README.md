@@ -8,7 +8,7 @@ Also, the following paper explains the tool in more details:
 
 [Barreda, S. (2021). Fast Track: fast (nearly) automatic formant-tracking using Praat. Linguistics Vanguard, 7(1), 20200051. https://doi.org/10.1515/lingvan-2020-0051](https://www.degruyter.com/document/doi/10.1515/lingvan-2020-0051/html)
 
-# About the workshop
+# Preliminaries: About the workshop
 ## Aims and objectives
 After the workshop, you will be able to perform formant extraction on already segmented sound files.
 
