@@ -17,13 +17,13 @@ In the workshop, I will explain and demonstrate the following things:
 
 1. **Functions** - what can we do with Fast Track?
 2. **Output** - what information does it provide us?
-3. **Extracting Vowels** - what is an efficient way to extract vowels for formant analysis?
-4. **Folder Structure** - what do we need to do to get the automatic formant tracking to work?
+3. **Extracting vowels** - what is an efficient way to extract vowels and create an audio file for each of them for formant analysis?
+4. **Folder structure** - what do we need to do to get the automatic formant tracking to work?
 
 Time permitting, I will also try to show:
 
-5. **Tidying the Fast Track Output in R**
-6. **Visualisation in R**
+5. **Tidying the Fast Track Output in R** - how do we tidy up the Fast Track output into a clean data using tidyverse?
+6. **Visualisation in R** - This is the most exciting phase! 
 7. **Some tips for optimal formant analysis (e.g. adjusting formant thresholds, analysing liquids)**
 
 ## What will not be covered
