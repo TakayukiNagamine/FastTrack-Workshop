@@ -37,5 +37,11 @@ For reasons of time and my lack of knowledge, the following will not be covered:
 ## About the speech data
 For demonstration, I'm going to use recordings of the well-known passage "The North Wind and the Sun" that are publicly available in [the ALLSTAR Corpus](https://groups.linguistics.northwestern.edu/speech_comm_group/allsstar2/#!/). The ALLSTAR Corpus, an acronym for **A**rchive of **L**1 and **L**2 **S**cripted and Spontaneous **T**ranscripts **A**nd **R**ecordings, contains a number of spontaneous and scripted speech that were produced by English speakers from different language backgrounds. 
 
+# Disentangling the Fast Track output (Aggreagate_data.csv)
+https://github.com/santiagobarreda/FastTrack/wiki/Aggregate-data
+
+![image H = 100](https://user-images.githubusercontent.com/73927499/148821906-c487863c-d16a-498d-9277-fff0cb729208.png)
+
+
 # References
 Bradlow, A. R. (n.d.) ALLSSTAR: Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings. Retrieved from https://oscaar3.ling.northwestern.edu/ALLSSTARcentral/#!/recordings.
