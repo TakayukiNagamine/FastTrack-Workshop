@@ -34,4 +34,8 @@ For reasons of time and my lack of knowledge, the following will not be covered:
 4. Computations behind the operations - I tried to understand it but there is still a long way to grasp it fully.
 
 
+## About the speech data
+For demonstration, I'm going to use recordings of the well-known passage "The North Wind and the Sun" that are publicly available in [the ALLSTAR Corpus](https://groups.linguistics.northwestern.edu/speech_comm_group/allsstar2/#!/). The ALLSTAR Corpus, an acronym for **A**rchive of **L**1 and **L**2 **S**cripted and Spontaneous **T**ranscripts **A**nd **R**ecordings, contains a number of spontaneous and scripted speech that were produced by English speakers from different language backgrounds. 
 
+# References
+Bradlow, A. R. (n.d.) ALLSSTAR: Archive of L1 and L2 Scripted and Spontaneous Transcripts And Recordings. Retrieved from https://oscaar3.ling.northwestern.edu/ALLSSTARcentral/#!/recordings.
