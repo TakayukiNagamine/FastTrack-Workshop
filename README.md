@@ -2,7 +2,7 @@
 This is the repository for the workshop on using FastTrack for the Phonetics lab meeting on 1st February, 2022. 
 
 # Overview
-Fast Track is (nearly) automated formant tracking tool that enables you to extract the formant contours quickly and easily. The tool functions based on a number of praat scripts and as a plug-in in Praat, so there is no need for you to code anything. There is also room for customising the scripts to make more individualised tool. Fast Track is developed by Santiago Barreda at UC Davies and more information can be found here: https://github.com/santiagobarreda/FastTrack
+Fast Track is a (nearly) automated formant tracking tool that enables you to extract the formant contours quickly and easily. The tool functions based on a number of praat scripts and as a plug-in in Praat, so there is no need for you to code anything. There is also room for customising the scripts to make more individualised tool. Fast Track is developed by Santiago Barreda at UC Davies and more information can be found here: https://github.com/santiagobarreda/FastTrack
 
 Also, the following paper explains the tool in more details:
 
