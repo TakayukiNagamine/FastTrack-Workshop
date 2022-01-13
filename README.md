@@ -86,6 +86,9 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
+All data were visually checked by me and segmentation was hand-corrected in the majority of the cases! 
+
+
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
 Also see
