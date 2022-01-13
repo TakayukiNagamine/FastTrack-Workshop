@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-# Welcome to the FastTrack Workshop repo!
+# Welcome to the FastTrack Workshop repository!
 
 This is the repository for the workshop on using FastTrack for the
 Phonetics lab meeting on 1st February, 2022.
