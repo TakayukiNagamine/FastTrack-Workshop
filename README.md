@@ -21,7 +21,7 @@ customising the scripts to make more individualised tool. Fast Track is
 developed by Santiago Barreda at UC Davies and more information can be
 found here: <https://github.com/santiagobarreda/FastTrack>
 
-Also, the following paper explains the tool in more details:
+Also, the following paper explains the tool in more detail:
 
 [Barreda, S. (2021). Fast Track: fast (nearly) automatic
 formant-tracking using Praat. Linguistics Vanguard, 7(1), 20200051.
@@ -82,17 +82,25 @@ covered:
 For demonstration, I’m going to use recordings of the well-known passage
 “The North Wind and the Sun” that are publicly available in [the ALLSTAR
 Corpus](https://groups.linguistics.northwestern.edu/speech_comm_group/allsstar2/#!/).
-The ALLSTAR Corpus, an acronym for **A**rchive of **L**1 and **L**2
-**S**cripted and Spontaneous **T**ranscripts **A**nd **R**ecordings,
-contains a number of spontaneous and scripted speech that were produced
-by English speakers from different language backgrounds.
+The ALLSTAR Corpus contains a number of spontaneous and scripted speech
+that were produced by English speakers from different language
+backgrounds.
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
-<https://github.com/santiagobarreda/FastTrack/wiki/Aggregate-data>
+Also see
+(<https://github.com/santiagobarreda/FastTrack/wiki/Aggregate-data>)
 
 ![image H =
 100](https://user-images.githubusercontent.com/73927499/148821906-c487863c-d16a-498d-9277-fff0cb729208.png)
+Aggregated\_data.csv includes:
+
+-   file：file name
+-   f0：mean fundamental frequency
+-   duration：segment duration in ms
+-   cutoff：the uppermost formant frequency used in analysis in Hz
+-   fXY：value of fX at Yth timepoint (in Hz)
+-   f11：f1 at 1st timepoint　f311：f3 at 11th timepoint
 
 # References
 
