@@ -5,6 +5,12 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# FastTrack-Workshop
+
+<!-- badges: start -->
+<!-- badges: end -->
 
 # Welcome to the FastTrack Workshop repository!
 
@@ -38,11 +44,11 @@ already segmented sound files.
 
 In the workshop, I will explain and demonstrate the following things:
 
-1. **The fun bit**: Extracting formant frequency using pre-clipped vowel tokens
-2. **Another fun bit**: Plotting vowels using R
-3. **Slightly tedious bit**: Structuring folders properly to extract formant frequencies and clip out vowels
-
-
+1.  **The fun bit**: Extracting formant frequency using pre-clipped
+    vowel tokens
+2.  **Another fun bit**: Plotting vowels using R
+3.  **Slightly tedious bit**: Structuring folders properly to extract
+    formant frequencies and clip out vowels
 
 <!--
 Time permitting, I will also try to show:
@@ -88,8 +94,8 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
-All data were visually checked by me and segmentation was hand-corrected in the majority of the cases! 
-
+All data were visually checked by me and segmentation was hand-corrected
+in the majority of the cases!
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
