@@ -52,7 +52,7 @@ In the workshop, I will explain and demonstrate the following things:
 2. **Another fun bit**: Plotting vowels using R
 3. **Slightly tedious bit**: Structuring folders properly to extract formant frequencies and clip out vowels
 
-If you would like to follow along, you can install FastTrack beforehand. A detailed step-by-step guide is available in Santiago’s Github repository above with some video illustrations. See the [wiki](https://github.com/santiagobarreda/FastTrack/wiki) on his Github repository for the tutorial on installation (and many other things!)
+If you would like to follow along, you can install FastTrack beforehand. A detailed step-by-step guide is available in [Santiago’s Github repository](https://github.com/santiagobarreda/FastTrack) with some video illustrations. See the [wiki](https://github.com/santiagobarreda/FastTrack/wiki) on his Github repository for the tutorial on installation (and many other things!)
 
 The data I use in the demonstration are stored in the 'zip' folder in my Github repository, where you can find a few zip files. Each corresponds to different stages I plan to go through during the demonstration:
 
@@ -101,10 +101,17 @@ that were produced by English speakers from different language
 backgrounds.
 
 
-# The fun bit
-## Tracking a folder that contains clipped vowels
+# The fun bit: Tracking a folder that contains clipped vowels
 
 The highlight of using FastTrack is that it enables you to extract formant frequencies from multiple files automatically. So, skipping all the preparation, here is one thing that you can expect from FastTrack:
+
+- FastTrack does a lot of regressions and chooses the best analysis out of multiple candidates automatically. It can also return images of all candidates and the winners for visual inspection. 
+
+- It estimates the formant frequencies at the multiple time points throughout the vowel duration.
+
+- The output is a csv file summarising the analysis, which can then be imported into R for tidy up, visualisation, statistics, etc. 
+
+Demonstration:
 
 1. Download **NWS_formant_estimation.zip** and save it somewhere on your computer.
 
@@ -114,11 +121,6 @@ The highlight of using FastTrack is that it enables you to extract formant frequ
 
 4. Specify the path to **NWS_formant_estimation.zip** in the "Folder" section. You can also adjust some other functions if prefer. For more details, please consult Sandiego's Github page 
 
-<p float="left">
-  <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png width = 50% />
-  <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50% /> 
-</p>
-
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
 </p>
@@ -126,6 +128,18 @@ The highlight of using FastTrack is that it enables you to extract formant frequ
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50%>
 </p>
+
+This operation yields quite a few output files, for which we don't have enough time to look through all. The results of the formant estimation can be found as **aggregate_data.csv** in **processed_data** folder. Here is the glimpse of it: 
+
+<p align="center">
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 50%>
+</p>
+
+
+
+
+
+# The fun bit: Tracking a folder that contains clipped vowels
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
