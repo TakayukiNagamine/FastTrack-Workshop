@@ -148,7 +148,7 @@ can be found as **aggregate\_data.csv** in **processed\_data** folder.
 Here is the glimpse of it:
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
 
 # The fun bit: Tracking a folder that contains clipped vowels
