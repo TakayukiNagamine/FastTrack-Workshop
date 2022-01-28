@@ -38,13 +38,13 @@ already segmented sound files.
 
 In the workshop, I will explain and demonstrate the following things:
 
-1.  **Functions** - what can we do with Fast Track?
-2.  **Output** - what information does it provide us?
-3.  **Extracting vowels** - what is an efficient way to extract vowels
-    and create an audio file for each of them for formant analysis?
-4.  **Folder structure** - what do we need to do to get the automatic
-    formant tracking to work?
+1. **The fun bit**: Extracting formant frequency using pre-clipped vowel tokens
+2. **Another fun bit**: Plotting vowels using R
+3. **Slightly tedious bit**: Structuring folders properly to extract formant frequencies and clip out vowels
 
+
+
+<!--
 Time permitting, I will also try to show:
 
 5.  **Tidying the Fast Track Output in R** - how do we tidy up the Fast
@@ -77,6 +77,8 @@ covered:
 3.  Computations behind the operations - I tried to understand it but
     there is still a long way to grasp it fully.
 
+--->
+
 ## About the speech data
 
 For demonstration, I’m going to use recordings of the well-known passage
@@ -85,6 +87,9 @@ Corpus](https://groups.linguistics.northwestern.edu/speech_comm_group/allsstar2/
 The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
+
+All data were visually checked by me and segmentation was hand-corrected in the majority of the cases! 
+
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
