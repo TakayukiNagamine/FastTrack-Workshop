@@ -111,6 +111,8 @@ You can extract formant contours easily through the following steps:
 
 ![image](/Users/TakayukiNagamine/Documents/GitHub/FastTrack-Workshop/images/trackfolder01.png)
 
+<img src="/Users/TakayukiNagamine/Documents/GitHub/FastTrack-Workshop/images/trackfolder01.png" width="395" style="display: block; margin: auto;" />
+
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 80%>
 </p>
