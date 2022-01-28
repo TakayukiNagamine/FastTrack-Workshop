@@ -129,6 +129,10 @@ the preparation, here is one thing that you can expect from FastTrack:
 ![image H =
 100](https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png)
 
+<p align="center">
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width=80%>
+</p>
+
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
 Also see
