@@ -30,11 +30,9 @@ https://doi.org/10.1515/lingvan-2020-0051](https://www.degruyter.com/document/do
 
 In the workshop, I will explain and demonstrate the following things:
 
-1.  **The fun bit**: Extracting formant frequency using pre-clipped
-    vowel tokens
-2.  **Another fun bit**: Plotting vowels using R
-3.  **Slightly tedious bit**: Structuring folders properly to extract
-    formant frequencies and clip out vowels
+1.  **The fun bit**: Bulk formant estimation
+2.  **Another fun bit**: Tidying up data for R
+3.  **Slightly tedious bit**: Extracting vowels
 
 If you would like to follow along, you can install FastTrack beforehand.
 A detailed step-by-step guide is available in [Santiago’s Github
@@ -99,7 +97,7 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
-# The fun bit: Tracking a folder that contains clipped vowels
+# Bulk formant estimation
 
 The highlight of using FastTrack is that it enables you to extract
 formant frequencies from multiple files automatically. So, skipping all
@@ -127,7 +125,11 @@ Demonstration:
 
 4.  Specify the path to **NWS\_formant\_estimation.zip** in the “Folder”
     section. You can also adjust some other functions if prefer. For
-    more details, please consult Sandiego’s Github page
+    more details, please consult Sandiego’s Github page.
+
+    -   Note that the path to be specified here is the folder that
+        contains a ‘sound’ folder and two other csv files. This won’t
+        work if you specify the ‘sound’ folder directly.
 
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
@@ -145,7 +147,7 @@ Here is the glimpse of it:
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
 
-# Another fun bit: Plotting vowels using R
+# Tidying up data for R
 
 I think FastTrack becomes even more powerful if combined with R. This,
 however, requires you to figure out how to tidy up the data for a more
@@ -156,14 +158,14 @@ script for the same purpose.
 Below is my attempt to visualise vowels of nonnative English speakers
 from the Asian countries (Asian Englishes speakers).
 
-# Slightly tedious bit: Structuring folders properly to extract formant frequencies and clip out vowels
+# Extracting vowels
 
 OK, we have seen that FastTrack is a very powerful tool in automatic
 formant estimation for a bulk of vowels and then R could also be used to
-play around with the data. Formant estimation requires each audio file
-to contain vocalic components throughout the duration, which means that
-we need to clip out every vowel token from the recording. Thankfully,
-FastTrack is also ready to do this for us.
+play around with the FastTrack data. However, formant estimation
+requires each audio file to contain vocalic components throughout the
+duration, which means that we need to clip out every vowel token from
+the recording. Thankfully, FastTrack is also ready to do this for us.
 
 If you wish to follow along, the following instructions should work:
 
@@ -196,6 +198,10 @@ If you wish to follow along, the following instructions should work:
         the speech, stress is marked alongside each vowel. For example,
         you will find “AE1”, which means a TRAP vowel that bears the
         primary stress, or “AE2” the secondary stress, etc.
+
+<p align="center">
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 100%>
+</p>
 
 # References
 
