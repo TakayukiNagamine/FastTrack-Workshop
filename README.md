@@ -99,6 +99,10 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
+Bradlow, A. R. (n.d.) ALLSSTAR: Archive of L1 and L2 Scripted and
+Spontaneous Transcripts And Recordings. Retrieved from
+<https://oscaar3.ling.northwestern.edu/ALLSSTARcentral/#!/recordings>.
+
 # 1. Bulk formant estimation
 
 The highlight of using FastTrack is that it enables you to extract
@@ -117,17 +121,18 @@ the preparation, here is one thing that you can expect from FastTrack:
 
 Demonstration:
 
-1.  Download **NWS\_formant\_estimation.zip** and save it somewhere on
-    your computer.
+1.  Download
+    [**NWS\_formant\_estimation.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_formant_estimation.zip)
+    and save it somewhere on your computer.
 
 2.  Open Praat and throw a random file in the object window. This will
     trigger the FastTrack functions to appear in the menu section.
 
 3.  Select **Track folder..**.
 
-4.  Specify the path to **NWS\_formant\_estimation.zip** in the “Folder”
-    section. You can also adjust some other functions if prefer. For
-    more details, please consult Sandiego’s Github page.
+4.  Specify the path to the **NWS\_formant\_estimation** folder in the
+    “Folder” section. You can also adjust some other functions if
+    prefer. For more details, please consult Sandiego’s Github page.
 
     -   Note that the path to be specified here is the folder that
         contains a ‘sound’ folder and two other csv files. This won’t
@@ -171,9 +176,10 @@ the recording. Thankfully, FastTrack is also ready to do this for us.
 
 If you wish to follow along, the following instructions should work:
 
-1.  Download **NWS\_vowel\_extraction.zip** and save it somewhere on
-    your computer. Again, I have already made the structure optimal for
-    the vowel extraction.
+1.  Download
+    [**NWS\_vowel\_extraction.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_vowel_extraction.zip)
+    and save it somewhere on your computer. Again, I have already made
+    the structure optimal for the vowel extraction.
 
 2.  Open Praat and throw a random file in the object window. This will
     trigger the FastTrack functions to appear in the menu section.
@@ -204,9 +210,3 @@ If you wish to follow along, the following instructions should work:
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 100%>
 </p>
-
-# References
-
-Bradlow, A. R. (n.d.) ALLSSTAR: Archive of L1 and L2 Scripted and
-Spontaneous Transcripts And Recordings. Retrieved from
-<https://oscaar3.ling.northwestern.edu/ALLSSTARcentral/#!/recordings>.
