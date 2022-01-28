@@ -46,20 +46,19 @@ https://doi.org/10.1515/lingvan-2020-0051](https://www.degruyter.com/document/do
 
 # Preliminaries: About the workshop
 
-## Aims and objectives
-
-After the workshop, you will be able to perform formant extraction on
-already segmented sound files.
-
-## What will be covered
-
 In the workshop, I will explain and demonstrate the following things:
 
 1. **The fun bit**: Extracting formant frequency using pre-clipped vowel tokens
 2. **Another fun bit**: Plotting vowels using R
 3. **Slightly tedious bit**: Structuring folders properly to extract formant frequencies and clip out vowels
 
+If you would like to follow along, you can install FastTrack beforehand. A detailed step-by-step guide is available in Santiago’s Github repository above with some video illustrations. See the [wiki](https://github.com/santiagobarreda/FastTrack/wiki) on his Github repository for the tutorial on installation (and many other things!)
 
+The data I use in the demonstration are stored in the 'zip' folder in my Github repository, where you can find a few zip files. Each corresponds to different stages I plan to go through during the demonstration:
+
+- **NWS.zip**: The NWS recording audio files and accompanying textgrids stored in one file.
+- **NWS_vowel_extraction.zip**: Similar to the 'NWS.zip' file but, once you develop it, you can find the audio and textgrid files stored in separate folders. This is the folder structure required to extract vowels.
+- **NWS_formant_estimation.zip**: The folder contains the product of the formant extraction. Therefore, each sound file corresponds to a vowel and is stored in the 'sounds' folder. There are also two csv files that are helpful for tidying up the data.
 
 <!--
 Time permitting, I will also try to show:
@@ -86,11 +85,7 @@ covered:
     [here](https://www.youtube.com/watch?v=Zhj-ccMDj_w&t=531s). She also
     develops [a comprehensive user manual for
     MFA](https://eleanorchodroff.com/tutorial/montreal-forced-aligner-v2.html).
-2.  Installation of the tool - A detailed step-by-step guide is
-    available in Santiago’s website above with some video
-    illlustrations. See the
-    [wiki](https://github.com/santiagobarreda/FastTrack/wiki) on his
-    website for the turorial on installation (and many other things!)
+
 3.  Computations behind the operations - I tried to understand it but
     there is still a long way to grasp it fully.
 
@@ -105,8 +100,24 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
-All data were visually checked by me and segmentation was hand-corrected in the majority of the cases! 
 
+# The fun bit
+## Tracking a folder that contains clipped vowels
+
+The highlight of using FastTrack is that it enables you to extract formant frequencies from multiple files automatically. So, skipping all the preparation, here is one thing that you can expect from FastTrack:
+
+1. Download **NWS_formant_estimation.zip** and save it somewhere on your computer.
+
+2. Open Praat and through a random file in the object window. This will trigger the FastTrack function to appear in the menu section.
+
+3. Select **Track folder..**.
+
+4. Specify the path to **NWS_formant_estimation.zip** in the "Folder" section. You can also adjust some other functions if prefer, such as:
+
+  - Number of steps: 
+
+![image H =
+100](https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png)
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
 
