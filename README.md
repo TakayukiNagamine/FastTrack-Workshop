@@ -115,19 +115,20 @@ the preparation, here is one thing that you can expect from FastTrack:
 1.  Download **NWS\_formant\_estimation.zip** and save it somewhere on
     your computer.
 
-2.  Open Praat and through a random file in the object window. This will
-    trigger the FastTrack function to appear in the menu section.
+2.  Open Praat and throw a random file in the object window. This will
+    trigger the FastTrack functions to appear in the menu section.
 
 3.  Select **Track folder..**.
 
 4.  Specify the path to **NWS\_formant\_estimation.zip** in the “Folder”
-    section. You can also adjust some other functions if prefer, such
-    as:
-
--   Number of steps:
+    section. You can also adjust some other functions if prefer. For
+    more details, please consult Sandiego’s Github page
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width=50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
+</p>
+<p align="center">
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 30%>
 </p>
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
