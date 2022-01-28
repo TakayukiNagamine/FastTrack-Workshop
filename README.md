@@ -128,7 +128,7 @@ the preparation, here is one thing that you can expect from FastTrack:
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
 </p>
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 30%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50%>
 </p>
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)

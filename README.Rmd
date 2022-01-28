@@ -119,7 +119,7 @@ The highlight of using FastTrack is that it enables you to extract formant frequ
 </p>
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 30%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50%>
 </p>
 
 # Disentangling the Fast Track output (Aggreagate\_data.csv)
