@@ -1,7 +1,7 @@
 ---
-title: "FastTrack_Demonstration"
+title: "Vowel analysis using FastTrack"
 author: "Takayuki Nagamine"
-date: "1/28/2022"
+date: "`r format(Sys.time(), '%d/%m/%Y')`"
 output: bookdown::html_document2
 ---
 
@@ -43,11 +43,11 @@ If you would like to follow along, you can install FastTrack beforehand. A detai
 
 **Prepared data**
 
-The data I use in the demonstration are stored in the 'zip' folder in my Github repository, where you can find two zip files. Each corresponds to different stages I plan to go through during the demonstration:
+I have prepared data that are compressed into zip files. Each corresponds to different stages I plan to go through during the demonstration:
 
-- **NWS.zip**: 
-    - This is basically a folder that contains WAV and TextGrid files, but in separate folders in a FastTrack-friendly manner. This is the folder structure required to extract vowels.
-- **NWS_individual_vowels.zip**: 
+- [**NWS.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS.zip): 
+    - This is basically a folder that contains WAV and TextGrid files, but are stored in separate folders in a FastTrack-friendly manner. This is the folder structure required to extract vowels.
+- [**NWS_individual_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip): 
     - The folder contains the product of the vowel extraction. Therefore, each sound file corresponds to a vowel and is stored in the 'sounds' folder. There are also two csv files that are helpful for tidying up the data afterwards.
 
 **Speech data**
@@ -85,13 +85,12 @@ You can extract formant contours easily through the following steps:
 
 4. Specify the path to the **NWS_individual_vowels** folder in the "Folder" section. You can also adjust some other functions if prefer. For more details, please consult Sandiego's Github page.
 
-    - Note that the path to be specified here is **the folder that contains a 'sound' folder and two other csv files**. This won't work if you specify the 'sound' folder directly. 
+- Note that the path to be specified here is **the folder that contains a 'sound' folder and two other csv files**. This won't work if you specify the 'sound' folder directly. 
     
-    - Also note that **the naming convention is also important** in later stages - i.e. a 'sounds' folder and a 'texrgrids' folder.
+- Also note that **the naming convention is also important** in later stages - i.e. a 'sounds' folder and a 'texrgrids' folder.
 
 
-```{r echo=FALSE, out.width="49%", out.height="20%", fig.show='hold', fig.cap='Setting window for formant estimation (left) and an example of comparison image (right)'}
-
+```{r echo=FALSE, out.width="49%", out.height="20%", fig.show='hold', fig.align='center', fig.cap='Setting window for formant estimation (left) and an example of comparison image (right)'}
 
 
 knitr::include_graphics("/Users/TakayukiNagamine/Documents/GitHub/FastTrack-Workshop/images/trackfolder01.png")
@@ -111,7 +110,7 @@ knitr::include_graphics("/Users/TakayukiNagamine/Documents/GitHub/FastTrack-Work
 </p>
 -->
 
-This operation yields quite a few output files, for which we don't have enough time to look through all. (If interested, you can download **"NWS_results.zip"** to see the full results.) The most important here is the results of the formant estimation, stored in a csv file as **aggregate_data.csv** in **processed_data** folder. Here is a glimpse of it: 
+This operation yields quite a few output files, for which we don't have enough time to look through. If interested, you can download [**"NWS_results.zip"**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_result.zip) to see the full output. The most important here is the results of the formant estimation, stored in a csv file as [**aggregate_data.csv**](https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/cea3b7c72cd9794705aec754d362449e2f93ab66/csv/aggregated_data.csv) in **processed_data** folder. Here is a glimpse of it: 
 
 ```{r echo=FALSE, fig.align='center', fig.cap="An example of Aggregate_data.csv"}
 
@@ -202,12 +201,18 @@ If you wish to follow along, the following instructions should work:
 
 4. Specify the following:
 
-    - **Sound folder**: Path to "sounds" in the NWS folder containing .wav files.
-    - **TextGrid folder**: Path to "textgrids" in the NWS folder containing .TextGrid files.
-    - **Output folder**: Path to the folder where you wish to save the outputs. You could specify an existing location. 
-    - **Which tier contains segmentation information?**: Specify the tier in which phonemic transcription/segmentation has been performed. In the current example, the segmentation is done in Tier 2 so type 2.
-    - **Which tier contains word information?**: Specify the tier with words. Type 1 in this case.
-    - **Is stress marked on vowels?**: Tick the box if you wish to take stress into account. If you use forced alignment to segment the speech, stress is marked alongside each vowel. For example, you will find "AE1", which means a TRAP vowel that bears the primary stress, or "AE2" the secondary stress, etc.
+- **Sound folder**: 
+  - Path to "sounds" in the NWS folder containing .wav files.
+- **TextGrid folder**: 
+  - Path to "textgrids" in the NWS folder containing .TextGrid files.
+- **Output folder**: 
+  - Path to the folder where you wish to save the outputs. You could specify an existing location. 
+- **Which tier contains segmentation information?**: 
+  - Specify the tier in which phonemic transcription/segmentation has been performed. In the current example, the segmentation is done in Tier 2 so type 2.
+- **Which tier contains word information?**: 
+  - Specify the tier with words. Type 1 in this case.
+- **Is stress marked on vowels?**: 
+  - Tick the box if you wish to take stress into account. If you use forced alignment to segment the speech, stress is marked alongside each vowel. For example, you will find "AE1", which means a TRAP vowel that bears the primary stress, or "AE2" the secondary stress, etc.
 
 ```{r echo=FALSE, fig.align='center', out.width="50%", fig.cap="Vowel extraction setting window"}
 
@@ -239,4 +244,4 @@ I have demonstrated the overview of my vowel analysis workflow, but these are on
 
 2. **Formant correction**
 
-    - At this stage, my analyses remain very coarse as it still takes me a lot of time checking if the segmenetation is correct before extracting vowels. However, you may want to check the accuracy of formant estimation and hand correct the measurement if necessary. FastTrack has a capacity for this, and you can learn about it in [How to analyze a folder](https://github.com/santiagobarreda/FastTrack/wiki/How-to-analyze-a-folder) and [Fixing errors](https://github.com/santiagobarreda/FastTrack/wiki/Fixing-Errors).
+    - At this stage, my analyses remain very coarse as it still takes me a lot of time checking if the segmenetation is correct before extracting vowels. However, you may want to check the accuracy of formant estimation and hand correct the measurement if necessary. I haven't managed to learn it just yet, but FastTrack has a capacity for this. You can learn about it in [How to analyze a folder](https://github.com/santiagobarreda/FastTrack/wiki/How-to-analyze-a-folder) and [Fixing errors](https://github.com/santiagobarreda/FastTrack/wiki/Fixing-Errors).
