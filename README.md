@@ -47,7 +47,7 @@ different stages I plan to go through during the demonstration:
 
 -   **NWS.zip**:
     -   This is basically a folder that contains WAV and TextGrid files,
-        but in separate folders in a FastTracc-friendly manner. This is
+        but in separate folders in a FastTrack-friendly manner. This is
         the folder structure required to extract vowels.
 -   **NWS\_individual\_vowels.zip**:
     -   The folder contains the product of the vowel extraction.
@@ -76,7 +76,7 @@ English.
 
 The highlight of using FastTrack is that it enables you to extract
 formant frequencies from multiple files automatically. So, skipping all
-the preparation, here is one thing that you can expect from FastTrack:
+the preparation, here are what you can expect from FastTrack:
 
 -   FastTrack does a lot of regressions and chooses the best analysis
     out of multiple candidates automatically. It can also return images
@@ -91,21 +91,25 @@ the preparation, here is one thing that you can expect from FastTrack:
 You can extract formant contours easily through the following steps:
 
 1.  Download
-    [**NWS\_individual\_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip)
-    and save it somewhere on your computer.
+    [**NWS\_individual\_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip),
+    unfold it and save it somewhere on your computer.
 
-2.  Open Praat and throw a random file in the object window. This will
-    trigger the FastTrack functions to appear in the menu section.
+2.  Open **Praat** and throw a random file in the object window. This
+    will trigger the FastTrack functions to appear in the menu section
+    (if FastTrack is installed properly).
 
-3.  Select **Track folder..**.
+3.  Select **Track folder…**.
 
 4.  Specify the path to the **NWS\_individual\_vowels** folder in the
     “Folder” section. You can also adjust some other functions if
     prefer. For more details, please consult Sandiego’s Github page.
 
-    -   Note that the path to be specified here is the folder that
-        contains a ‘sound’ folder and two other csv files. This won’t
+    -   Note that the path to be specified here is **the folder that
+        contains a ‘sound’ folder and two other csv files**. This won’t
         work if you specify the ‘sound’ folder directly.
+
+    -   Also note that **the naming convention is also important** in
+        later stages - i.e. a ‘sounds’ folder and a ‘texrgrids’ folder.
 
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
@@ -115,25 +119,23 @@ You can extract formant contours easily through the following steps:
 </p>
 
 This operation yields quite a few output files, for which we don’t have
-enough time to look through all. The results of the formant estimation
-can be found as **aggregate\_data.csv** in **processed\_data** folder.
-Here is the glimpse of it:
+enough time to look through all. (If interested, you can download
+**“NWS\_results.zip”** to see the full results.) The most important here
+is the results of the formant estimation, stored in a csv file as
+**aggregate\_data.csv** in **processed\_data** folder. Here is the
+glimpse of it:
 
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
-
-Finally, for the sake of reducing time, I limit the number of candidates
-and instructed not to produce any images of formants. Please download
-**“NWS\_results.zip”** to see the full results.
 
 # 2. Tidying up data for R
 
 I think FastTrack becomes even more powerful if combined with R. This,
 however, requires you to figure out how to tidy up the data for a more
 R-friendly data frame. If interested, you can look at my R code
-(**FastTrack.R**) to tidy up the data, which I wrote based on Sam’s
-script for the same purpose.
+([**FastTrack.R**](https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/main/FastTrack.R))
+to tidy up the data, which I wrote based on Sam’s script.
 
 Below is my attempt to visualise vowels of nonnative English speakers
 from the Asian countries (Asian Englishes speakers).
@@ -154,8 +156,8 @@ If you wish to follow along, the following instructions should work:
     and save it somewhere on your computer. Again, I have already made
     the structure optimal for the vowel extraction.
 
-2.  Open Praat and throw a random file in the object window. This will
-    trigger the FastTrack functions to appear in the menu section.
+2.  Open **Praat** and throw a random file in the object window. This
+    will trigger the FastTrack functions to appear in the menu section.
 
 3.  Select **Tools…**, then **Extract vowels with TextGrids**.
 
