@@ -1,16 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# FastTrack-Workshop
+# My workflow of vowel analysis using FastTrack
 
 <!-- badges: start -->
 <!-- badges: end -->
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 This is the repository for the workshop on using FastTrack for the
-Phonetics lab meeting on 1st February, 2022.
-
-# Overview
+Phonetics lab meeting on 1st February, 2022 at Lancaster University.
 
 Fast Track is a (nearly) automated formant tracking tool that enables
 you to extract the formant contours quickly and easily. The tool
