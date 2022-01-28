@@ -45,17 +45,19 @@ The data I use in the demonstration are stored in the ‘zip’ folder in my
 Github repository, where you can find a few zip files. Each corresponds
 to different stages I plan to go through during the demonstration:
 
--   **NWS.zip**: The NWS recording audio files and accompanying
-    textgrids stored in one file. Quite a normal way of storing audio
-    files and textgrids I guess.
--   **NWS\_vowel\_extraction.zip**: Similar to the ‘NWS.zip’ file but,
-    once you develop it, you can find the audio and textgrid files
-    stored in separate folders. This is the folder structure required to
-    extract vowels.
--   **NWS\_formant\_estimation.zip**: The folder contains the product of
-    the vowel extraction. Therefore, each sound file corresponds to a
-    vowel and is stored in the ‘sounds’ folder. There are also two csv
-    files that are helpful for tidying up the data afterwards.
+-   **NWS.zip**:
+    -   The NWS recording audio files and accompanying textgrids stored
+        in one file. Quite a normal way of storing audio files and
+        textgrids I guess.
+-   **NWS\_vowel\_extraction.zip**:
+    -   Similar to the ‘NWS.zip’ file but, once you develop it, you can
+        find the audio and textgrid files stored in separate folders.
+        This is the folder structure required to extract vowels.
+-   **NWS\_formant\_estimation.zip**:
+    -   The folder contains the product of the vowel extraction.
+        Therefore, each sound file corresponds to a vowel and is stored
+        in the ‘sounds’ folder. There are also two csv files that are
+        helpful for tidying up the data afterwards.
 
 <!--
 Time permitting, I will also try to show:
