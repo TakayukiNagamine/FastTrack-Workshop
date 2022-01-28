@@ -7,13 +7,6 @@
 <!-- badges: end -->
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# FastTrack-Workshop
-
-<!-- badges: start -->
-<!-- badges: end -->
-
-# Welcome to the FastTrack Workshop repository!
-
 This is the repository for the workshop on using FastTrack for the
 Phonetics lab meeting on 1st February, 2022.
 
@@ -150,24 +143,6 @@ Here is the glimpse of it:
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
-
-# The fun bit: Tracking a folder that contains clipped vowels
-
-# Disentangling the Fast Track output (Aggreagate\_data.csv)
-
-Also see
-(<https://github.com/santiagobarreda/FastTrack/wiki/Aggregate-data>)
-
-![image H =
-100](https://user-images.githubusercontent.com/73927499/148821906-c487863c-d16a-498d-9277-fff0cb729208.png)
-Aggregated\_data.csv includes:
-
--   file：file name
--   f0：mean fundamental frequency
--   duration：segment duration in ms
--   cutoff：the uppermost formant frequency used in analysis in Hz
--   fXY：value of fX at Yth timepoint (in Hz)
--   f11：f1 at 1st timepoint　f311：f3 at 11th timepoint
 
 # References
 
