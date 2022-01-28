@@ -73,17 +73,7 @@ Time permitting, I will also try to show:
 For reasons of time and my lack of knowledge, the following will not be
 covered:
 
-1.  Segmenting audio files into phonemes using [Montreal Forced
-    Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/) -
-    You need audio files and acoomanying Praat TextGrids that contain a
-    tier with phonemically segmented intervals and I find it useful to
-    use Montreal Forced Aligner (MFA) to prepare the files. However,
-    explaining how to use MFA is well beyond the scope of the workshop.
-    Eleanor Chodroff recently held a workshop on using MFA at Rutgers
-    University and the video can be found
-    [here](https://www.youtube.com/watch?v=Zhj-ccMDj_w&t=531s). She also
-    develops [a comprehensive user manual for
-    MFA](https://eleanorchodroff.com/tutorial/montreal-forced-aligner-v2.html).
+1.  .
 
 3.  Computations behind the operations - I tried to understand it but
     there is still a long way to grasp it fully.
@@ -210,3 +200,32 @@ If you wish to follow along, the following instructions should work:
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 100%>
 </p>
+
+# 4. Other interesting stuff
+
+I have demonstrated the overview of my vowel analysis workflow, but
+these are only basic things.
+
+1.  **Segmenting audio files into phonemes using** [**Montreal Forced
+    Aligner**](https://montreal-forced-aligner.readthedocs.io/en/latest/)
+
+    -   You need audio files and acoomanying Praat TextGrids that
+        contain a tier with phonemically segmented intervals and I find
+        it useful to use Montreal Forced Aligner (MFA) to prepare the
+        files. Dr Eleanor Chodroff recently held a workshop on using MFA
+        at Rutgers University and the video can be found on Youtube
+        <https://www.youtube.com/watch?v=Zhj-ccMDj_w>. She also develops
+        a comprehensive user manual for MFA which can be found at
+        <https://eleanorchodroff.com/tutorial/montreal-forced-aligner-v2.html>.
+
+2.  **Formant correction**
+
+    -   At this stage, my analyses remain very coarse as it still takes
+        me a lot of time checking if the segmenetation is correct before
+        extracting vowels. However, you may want to check the accuracy
+        of formant estimation and hand correct the measurement if
+        necessary. FastTrack has a capacity for this, and you can learn
+        about it in [How to analyze a
+        folder](https://github.com/santiagobarreda/FastTrack/wiki/How-to-analyze-a-folder)
+        and [Fixing
+        errors](https://github.com/santiagobarreda/FastTrack/wiki/Fixing-Errors).
