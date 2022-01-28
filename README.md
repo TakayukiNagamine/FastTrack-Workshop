@@ -168,8 +168,7 @@ If you wish to follow along, the following instructions should work:
     -   **TextGrid folder**: Path to “textgrids” in the NWS folder
         containing .TextGrid files.
     -   **Output folder**: Path to the folder where you wish to save the
-        outputs. You could specify an existing location or create one by
-        typing it there.
+        outputs. You could specify an existing location.
     -   **Which tier contains segmentation information?**: Specify the
         tier in which phonemic transcription/segmentation has been
         performed. In the current example, the segmentation is done in
