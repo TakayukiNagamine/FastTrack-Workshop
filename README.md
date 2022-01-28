@@ -112,10 +112,10 @@ You can extract formant contours easily through the following steps:
         later stages - i.e. a ‘sounds’ folder and a ‘texrgrids’ folder.
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 80%>
 </p>
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 80%>
 </p>
 
 This operation yields quite a few output files, for which we don’t have
@@ -187,7 +187,7 @@ If you wish to follow along, the following instructions should work:
         primary stress, or “AE2” the secondary stress, etc.
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 100%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 80%>
 </p>
 
 # 4. Other interesting stuff

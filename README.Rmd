@@ -94,11 +94,11 @@ You can extract formant contours easily through the following steps:
     - Also note that **the naming convention is also important** in later stages - i.e. a 'sounds' folder and a 'texrgrids' folder.
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 80%>
 </p>
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 50%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/6a5ab4e82ad7ef17021eb3fa7fbfae4262c8bc7d/images/071_F_ENG_0025_comparison.png" width = 80%>
 </p>
 
 This operation yields quite a few output files, for which we don't have enough time to look through all. (If interested, you can download **"NWS_results.zip"** to see the full results.) The most important here is the results of the formant estimation, stored in a csv file as **aggregate_data.csv** in **processed_data** folder. Here is the glimpse of it: 
@@ -140,7 +140,7 @@ If you wish to follow along, the following instructions should work:
     - **Is stress marked on vowels?**: Tick the box if you wish to take stress into account. If you use forced alignment to segment the speech, stress is marked alongside each vowel. For example, you will find "AE1", which means a TRAP vowel that bears the primary stress, or "AE2" the secondary stress, etc.
 
 <p align="center">
-<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 100%>
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/c3015ff5f06a6ba7d353981eadcece64e3f85706/images/vowel_extraction.png" width = 80%>
 </p>
 
 # 4. Other interesting stuff
