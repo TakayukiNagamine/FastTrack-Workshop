@@ -178,23 +178,24 @@ If you wish to follow along, the following instructions should work:
 
 4.  Specify the following:
 
-    -   Sound folder: Path to the “sounds” folder containing .wav files.
-    -   TextGrid folder: Path to the “textgrids” folder containing
+    -   **Sound folder**: Path to the “sounds” folder containing .wav
+        files.
+    -   **TextGrid folder**: Path to the “textgrids” folder containing
         .TextGrid files.
-    -   Output folder: Path to the folder where you wish to save the
+    -   **Output folder**: Path to the folder where you wish to save the
         outputs. You could specify an existing location or create one by
         typing it there.
-    -   Which tier contains segmentation information?: Specify the tier
-        in which phonemic transcription/segmentation has been performed.
-        In the current example, the segmentation is done in Tier 2 so
-        type 2.
-    -   Which tier contains word information?: Specify the tier with
+    -   **Which tier contains segmentation information?**: Specify the
+        tier in which phonemic transcription/segmentation has been
+        performed. In the current example, the segmentation is done in
+        Tier 2 so type 2.
+    -   **Which tier contains word information?**: Specify the tier with
         words. Type 1 in this case.
-    -   Is stress marked on vowels?: Tick the box if you wish to take
-        stress into account. If you use forced alignment to segment the
-        speech, stress is marked alongside each vowel. For example, you
-        will find “AE1”, which means a TRAP vowel that bears the primary
-        stress, or “AE2” the secondary stress, etc.
+    -   **Is stress marked on vowels?**: Tick the box if you wish to
+        take stress into account. If you use forced alignment to segment
+        the speech, stress is marked alongside each vowel. For example,
+        you will find “AE1”, which means a TRAP vowel that bears the
+        primary stress, or “AE2” the secondary stress, etc.
 
 # References
 
