@@ -37,7 +37,7 @@ Also, the following paper explains the tool in more detail:
 formant-tracking using Praat. Linguistics Vanguard, 7(1), 20200051.
 https://doi.org/10.1515/lingvan-2020-0051](https://www.degruyter.com/document/doi/10.1515/lingvan-2020-0051/html)
 
-# Preliminaries: About the workshop
+# 0. Preliminaries
 
 In the workshop, I will explain and demonstrate the following things:
 
