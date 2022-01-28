@@ -46,39 +46,14 @@ Github repository, where you can find a few zip files. Each corresponds
 to different stages I plan to go through during the demonstration:
 
 -   **NWS.zip**:
-    -   The NWS recording audio files and accompanying textgrids stored
-        in one file. Quite a normal way of storing audio files and
-        textgrids I guess.
--   **NWS\_vowel\_extraction.zip**:
-    -   Similar to the ‘NWS.zip’ file but, once you develop it, you can
-        find the audio and textgrid files stored in separate folders.
-        This is the folder structure required to extract vowels.
--   **NWS\_formant\_estimation.zip**:
+    -   This is basically a folder that contains WAV and TextGrid files,
+        but in separate folders in a FastTracc-friendly manner. This is
+        the folder structure required to extract vowels.
+-   **NWS\_individual\_vowels.zip**:
     -   The folder contains the product of the vowel extraction.
         Therefore, each sound file corresponds to a vowel and is stored
         in the ‘sounds’ folder. There are also two csv files that are
         helpful for tidying up the data afterwards.
-
-<!--
-Time permitting, I will also try to show:
-
-5.  **Tidying the Fast Track Output in R** - how do we tidy up the Fast
-    Track output into a clean data using tidyverse?
-6.  **Visualisation in R** - This is the most exciting phase!
-7.  **Some tips for optimal formant analysis (e.g. adjusting formant
-    thresholds, analysing liquids)**
-
-## What will not be covered
-
-For reasons of time and my lack of knowledge, the following will not be
-covered:
-
-1.  .
-
-3.  Computations behind the operations - I tried to understand it but
-    there is still a long way to grasp it fully.
-
---->
 
 ## About the speech data
 
@@ -112,7 +87,7 @@ the preparation, here is one thing that you can expect from FastTrack:
 Demonstration:
 
 1.  Download
-    [**NWS\_formant\_estimation.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_formant_estimation.zip)
+    [**NWS\_individual\_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip)
     and save it somewhere on your computer.
 
 2.  Open Praat and throw a random file in the object window. This will
@@ -120,7 +95,7 @@ Demonstration:
 
 3.  Select **Track folder..**.
 
-4.  Specify the path to the **NWS\_formant\_estimation** folder in the
+4.  Specify the path to the **NWS\_individual\_vowels** folder in the
     “Folder” section. You can also adjust some other functions if
     prefer. For more details, please consult Sandiego’s Github page.
 
@@ -167,7 +142,7 @@ the recording. Thankfully, FastTrack is also ready to do this for us.
 If you wish to follow along, the following instructions should work:
 
 1.  Download
-    [**NWS\_vowel\_extraction.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_vowel_extraction.zip)
+    [**NWS.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS.zip)
     and save it somewhere on your computer. Again, I have already made
     the structure optimal for the vowel extraction.
 
@@ -178,10 +153,10 @@ If you wish to follow along, the following instructions should work:
 
 4.  Specify the following:
 
-    -   **Sound folder**: Path to the “sounds” folder containing .wav
-        files.
-    -   **TextGrid folder**: Path to the “textgrids” folder containing
-        .TextGrid files.
+    -   **Sound folder**: Path to “sounds” in the NWS folder containing
+        .wav files.
+    -   **TextGrid folder**: Path to “textgrids” in the NWS folder
+        containing .TextGrid files.
     -   **Output folder**: Path to the folder where you wish to save the
         outputs. You could specify an existing location or create one by
         typing it there.

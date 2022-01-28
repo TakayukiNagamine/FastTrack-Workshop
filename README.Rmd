@@ -50,32 +50,9 @@ If you would like to follow along, you can install FastTrack beforehand. A detai
 The data I use in the demonstration are stored in the 'zip' folder in my Github repository, where you can find a few zip files. Each corresponds to different stages I plan to go through during the demonstration:
 
 - **NWS.zip**: 
-    - The NWS recording audio files and accompanying textgrids stored in one file. Quite a normal way of storing audio files and textgrids I guess.
-- **NWS_vowel_extraction.zip**: 
-    - Similar to the 'NWS.zip' file but, once you develop it, you can find the audio and textgrid files stored in separate folders. This is the folder structure required to extract vowels.
-- **NWS_formant_estimation.zip**: 
+    - This is basically a folder that contains WAV and TextGrid files, but in separate folders in a FastTracc-friendly manner. This is the folder structure required to extract vowels.
+- **NWS_individual_vowels.zip**: 
     - The folder contains the product of the vowel extraction. Therefore, each sound file corresponds to a vowel and is stored in the 'sounds' folder. There are also two csv files that are helpful for tidying up the data afterwards.
-
-<!--
-Time permitting, I will also try to show:
-
-5.  **Tidying the Fast Track Output in R** - how do we tidy up the Fast
-    Track output into a clean data using tidyverse?
-6.  **Visualisation in R** - This is the most exciting phase!
-7.  **Some tips for optimal formant analysis (e.g. adjusting formant
-    thresholds, analysing liquids)**
-
-## What will not be covered
-
-For reasons of time and my lack of knowledge, the following will not be
-covered:
-
-1.  .
-
-3.  Computations behind the operations - I tried to understand it but
-    there is still a long way to grasp it fully.
-
---->
 
 ## About the speech data
 
@@ -102,13 +79,13 @@ The highlight of using FastTrack is that it enables you to extract formant frequ
 
 Demonstration:
 
-1. Download [**NWS_formant_estimation.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_formant_estimation.zip) and save it somewhere on your computer.
+1. Download [**NWS_individual_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip) and save it somewhere on your computer.
 
 2. Open Praat and throw a random file in the object window. This will trigger the FastTrack functions to appear in the menu section.
 
 3. Select **Track folder..**.
 
-4. Specify the path to the **NWS_formant_estimation** folder in the "Folder" section. You can also adjust some other functions if prefer. For more details, please consult Sandiego's Github page.
+4. Specify the path to the **NWS_individual_vowels** folder in the "Folder" section. You can also adjust some other functions if prefer. For more details, please consult Sandiego's Github page.
 
     - Note that the path to be specified here is the folder that contains a 'sound' folder and two other csv files. This won't work if you specify the 'sound' folder directly. 
 
@@ -138,7 +115,7 @@ OK, we have seen that FastTrack is a very powerful tool in automatic formant est
 
 If you wish to follow along, the following instructions should work:
 
-1. Download [**NWS_vowel_extraction.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/971564a0969d6a36c9e41fd98b3508c8e986ff0e/zip/NWS_vowel_extraction.zip) and save it somewhere on your computer. Again, I have already made the structure optimal for the vowel extraction. 
+1. Download [**NWS.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS.zip) and save it somewhere on your computer. Again, I have already made the structure optimal for the vowel extraction. 
 
 2. Open Praat and throw a random file in the object window. This will trigger the FastTrack functions to appear in the menu section.
 
@@ -146,8 +123,8 @@ If you wish to follow along, the following instructions should work:
 
 4. Specify the following:
 
-    - **Sound folder**: Path to the "sounds" folder containing .wav files.
-    - **TextGrid folder**: Path to the "textgrids" folder containing .TextGrid files.
+    - **Sound folder**: Path to "sounds" in the NWS folder containing .wav files.
+    - **TextGrid folder**: Path to "textgrids" in the NWS folder containing .TextGrid files.
     - **Output folder**: Path to the folder where you wish to save the outputs. You could specify an existing location or create one by typing it there.
     - **Which tier contains segmentation information?**: Specify the tier in which phonemic transcription/segmentation has been performed. In the current example, the segmentation is done in Tier 2 so type 2.
     - **Which tier contains word information?**: Specify the tier with words. Type 1 in this case.
