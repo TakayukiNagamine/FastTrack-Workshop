@@ -97,7 +97,7 @@ The ALLSTAR Corpus contains a number of spontaneous and scripted speech
 that were produced by English speakers from different language
 backgrounds.
 
-# Bulk formant estimation
+# 1. Bulk formant estimation
 
 The highlight of using FastTrack is that it enables you to extract
 formant frequencies from multiple files automatically. So, skipping all
@@ -147,7 +147,7 @@ Here is the glimpse of it:
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
 
-# Tidying up data for R
+# 2. Tidying up data for R
 
 I think FastTrack becomes even more powerful if combined with R. This,
 however, requires you to figure out how to tidy up the data for a more
@@ -158,7 +158,7 @@ script for the same purpose.
 Below is my attempt to visualise vowels of nonnative English speakers
 from the Asian countries (Asian Englishes speakers).
 
-# Extracting vowels
+# 3. Extracting vowels
 
 OK, we have seen that FastTrack is a very powerful tool in automatic
 formant estimation for a bulk of vowels and then R could also be used to
