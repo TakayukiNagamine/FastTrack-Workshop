@@ -49,9 +49,9 @@ If you would like to follow along, you can install FastTrack beforehand. A detai
 
 The data I use in the demonstration are stored in the 'zip' folder in my Github repository, where you can find a few zip files. Each corresponds to different stages I plan to go through during the demonstration:
 
-- **NWS.zip**: The NWS recording audio files and accompanying textgrids stored in one file.
+- **NWS.zip**: The NWS recording audio files and accompanying textgrids stored in one file. Quite a normal way of storing audio files and textgrids I guess.
 - **NWS_vowel_extraction.zip**: Similar to the 'NWS.zip' file but, once you develop it, you can find the audio and textgrid files stored in separate folders. This is the folder structure required to extract vowels.
-- **NWS_formant_estimation.zip**: The folder contains the product of the formant extraction. Therefore, each sound file corresponds to a vowel and is stored in the 'sounds' folder. There are also two csv files that are helpful for tidying up the data.
+- **NWS_formant_estimation.zip**: The folder contains the product of the vowel extraction. Therefore, each sound file corresponds to a vowel and is stored in the 'sounds' folder. There are also two csv files that are helpful for tidying up the data afterwards.
 
 <!--
 Time permitting, I will also try to show:
@@ -128,7 +128,11 @@ This operation yields quite a few output files, for which we don't have enough t
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
 
+# Another fun bit: Plotting vowels using R
 
+I think FastTrack becomes even more powerful if combined with R. This, however, requires you to figure out how to tidy up the data for a more R-friendly data frame. If interested, you can look at my R code (**FastTrack.R**) to tidy up the data, which I wrote based on Sam's script for the same purpose. 
+
+Below is my attempt to visualise vowels of nonnative English speakers from the Asian countries (Asian Englishes speakers). 
 
 
 
