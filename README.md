@@ -42,8 +42,8 @@ video illustrations. See the
 repository for the tutorial on installation (and many other things!)
 
 The data I use in the demonstration are stored in the ‘zip’ folder in my
-Github repository, where you can find a few zip files. Each corresponds
-to different stages I plan to go through during the demonstration:
+Github repository, where you can find two zip files. Each corresponds to
+different stages I plan to go through during the demonstration:
 
 -   **NWS.zip**:
     -   This is basically a folder that contains WAV and TextGrid files,
@@ -70,6 +70,10 @@ Spontaneous Transcripts And Recordings. Retrieved from
 
 # 1. Bulk formant estimation
 
+Let’s imagine that you are interested in comparing vowel realisations
+between a native English speaker and a native Japanese learner of
+English.
+
 The highlight of using FastTrack is that it enables you to extract
 formant frequencies from multiple files automatically. So, skipping all
 the preparation, here is one thing that you can expect from FastTrack:
@@ -84,7 +88,7 @@ the preparation, here is one thing that you can expect from FastTrack:
 -   The output is a csv file summarising the analysis, which can then be
     imported into R for tidy up, visualisation, statistics, etc.
 
-Demonstration:
+You can extract formant contours easily through the following steps:
 
 1.  Download
     [**NWS\_individual\_vowels.zip**](https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/zip/NWS_individual_vowels.zip)
@@ -118,6 +122,10 @@ Here is the glimpse of it:
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/51f898dc45415f4d5f22719334d37dc2e7d62cb1/images/aggregate_data.png" width = 100%>
 </p>
+
+Finally, for the sake of reducing time, I limit the number of candidates
+and instructed not to produce any images of formants. Please download
+**“NWS\_results.zip”** to see the full results.
 
 # 2. Tidying up data for R
 
