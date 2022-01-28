@@ -138,7 +138,12 @@ R-friendly data frame. If interested, you can look at my R code
 to tidy up the data, which I wrote based on Sam’s script.
 
 Below is my attempt to visualise vowels of nonnative English speakers
-from the Asian countries (Asian Englishes speakers).
+from the Asian countries (Hong Kong, Thailand and Vietnam) as well as an
+American English speaker.
+
+<p align="center">
+<img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/raw/main/images/asian_englishes_vowels.png" width = 100%>
+</p>
 
 # 3. Extracting vowels
 
