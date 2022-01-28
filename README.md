@@ -109,6 +109,8 @@ You can extract formant contours easily through the following steps:
     -   Also note that **the naming convention is also important** in
         later stages - i.e. a ‘sounds’ folder and a ‘texrgrids’ folder.
 
+![image](/Users/TakayukiNagamine/Documents/GitHub/FastTrack-Workshop/images/trackfolder01.png)
+
 <p align="center">
 <img src="https://github.com/TakayukiNagamine/FastTrack-Workshop/blob/baefed6e4a16e2d3b4d24cc280743bee8c3f4dfe/images/trackfolder01.png" width = 80%>
 </p>
