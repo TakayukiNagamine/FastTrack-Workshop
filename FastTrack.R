@@ -1,6 +1,5 @@
 # Converting Fast Track output to R-friendly format
 # Takayuki Nagamine 11 JAN 2022
-# slight changes
 
 # Data Preparation --------------------------------------------------------
 
